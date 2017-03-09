@@ -5,19 +5,19 @@
 # Description
 A fully customizable and flexible paging menu controller built from other view controllers placed inside a scroll view allowing the user to switch between any kind of view controller with an easy tap or swipe gesture similar to what Spotify, Windows Phone, and Instagram use. This is a RTL-edeted version and it is based on the Objective-C version of <a href="https://github.com/uacaps/PageMenu">PageMenu<a/>.
 
-##usage
+#Usage
 
-1. Insert **CAPSPageMenu.h** and **CAPSPageMenu.m** to your project
-2. Import **CAPSPageMenu.h** to your main controller
-3. Create a property:
+1.Insert **CAPSPageMenu.h** and **CAPSPageMenu.m** to your project
+2.Import **CAPSPageMenu.h** to your main controller
+3.Create a property like this:
 
 ```
 @property (nonatomic) CAPSPageMenu *pageMenu;
 ```
 
 
-4. Create your costum viewControllers
-5. Insert this Code inside of viewDidLoad(Don't forget to replace DemoOneController, DemoTwoController, DemoThreeControler to your own controllers):
+4.Create your costum viewControllers
+5.Insert this Code inside of viewDidLoad(Don't forget to replace DemoOneController, DemoTwoController, DemoThreeControler to your own controllers):
 
 ```
 
@@ -49,7 +49,7 @@ A fully customizable and flexible paging menu controller built from other view c
 
     _pageMenu.delegate = self;
 
-    //If the viewcontroller total number is X, you should change moveToPage:2 to moveToPage:X-1, so you need just replace X-1 to yours
+    //If the viewcontroller total number is X, you should change moveToPage:2 to moveToPage:X-1, so you need just replace **X-1**** to yours
     [_pageMenu moveToPage:2 withAnimated:NO];
     [self.view addSubview:_pageMenu.view];``````
 
