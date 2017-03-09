@@ -55,6 +55,3 @@ For more description about PageMenu, please visit the author's source page:<a hr
     //If the viewcontroller total number is X, you should change moveToPage:2 to moveToPage:X-1, so you need just replace **X-1**** to yours
     [_pageMenu moveToPage:2 withAnimated:NO];
     [self.view addSubview:_pageMenu.view];```
-    
-
-
