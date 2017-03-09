@@ -22,6 +22,7 @@
 		042E2ACC1E718A0800742194 /* demoTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042E2ACA1E718A0800742194 /* demoTwoViewController.xib */; };
 		042E2AD01E718A2C00742194 /* demoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2ACE1E718A2C00742194 /* demoThreeViewController.m */; };
 		042E2AD11E718A2C00742194 /* demoThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042E2ACF1E718A2C00742194 /* demoThreeViewController.xib */; };
+		04BD4E901E71943300EFD1D2 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BD4E8F1E71943300EFD1D2 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		042E2ACD1E718A2C00742194 /* demoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoThreeViewController.h; sourceTree = "<group>"; };
 		042E2ACE1E718A2C00742194 /* demoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoThreeViewController.m; sourceTree = "<group>"; };
 		042E2ACF1E718A2C00742194 /* demoThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demoThreeViewController.xib; sourceTree = "<group>"; };
+		04BD4E8F1E71943300EFD1D2 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				042E2A951E7188E800742194 /* Main.storyboard */,
 				042E2A981E7188E800742194 /* Assets.xcassets */,
 				042E2A9A1E7188E800742194 /* LaunchScreen.storyboard */,
+				04BD4E8F1E71943300EFD1D2 /* demo.png */,
 				042E2A9D1E7188E800742194 /* Info.plist */,
 				042E2A8C1E7188E800742194 /* Supporting Files */,
 			);
@@ -283,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BD4E901E71943300EFD1D2 /* demo.png in Resources */,
 				042E2A9C1E7188E800742194 /* LaunchScreen.storyboard in Resources */,
 				042E2AC71E7189CE00742194 /* DemoOneController.xib in Resources */,
 				042E2AD11E718A2C00742194 /* demoThreeViewController.xib in Resources */,
