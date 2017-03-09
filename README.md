@@ -51,10 +51,8 @@ A fully customizable and flexible paging menu controller built from other view c
 
     //If the viewcontroller total number is X, you should change moveToPage:2 to moveToPage:X-1, so you need just replace **X-1**** to yours
     [_pageMenu moveToPage:2 withAnimated:NO];
-    [self.view addSubview:_pageMenu.view];``````
+    [self.view addSubview:_pageMenu.view];```
+    
+##Customization
+For more description about PageMenu, please visit the author's source page:<a href="https://github.com/uacaps/PageMenu">Click here</a>.
 
-
-
-
-##Costumization
- Usage and Costumization are exactly the same with the original version. For more description about PageMenu, please visit the author's source page:<a href="https://github.com/uacaps/PageMenu">Click here</a>.
