@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  demoThreeViewController.h
 //  Demo
 //
 //  Created by UyghurbegPro on 17/3/9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@end
+@interface demoThreeViewController : UIViewController
 
+@end

@@ -15,6 +15,13 @@
 		042E2A9C1E7188E800742194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E2A9A1E7188E800742194 /* LaunchScreen.storyboard */; };
 		042E2AA71E7188E800742194 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2AA61E7188E800742194 /* DemoTests.m */; };
 		042E2AB21E7188E900742194 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2AB11E7188E900742194 /* DemoUITests.m */; };
+		042E2AC21E71899F00742194 /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2AC11E71899F00742194 /* CAPSPageMenu.m */; };
+		042E2AC61E7189CE00742194 /* DemoOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2AC41E7189CE00742194 /* DemoOneController.m */; };
+		042E2AC71E7189CE00742194 /* DemoOneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042E2AC51E7189CE00742194 /* DemoOneController.xib */; };
+		042E2ACB1E718A0800742194 /* demoTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2AC91E718A0800742194 /* demoTwoViewController.m */; };
+		042E2ACC1E718A0800742194 /* demoTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042E2ACA1E718A0800742194 /* demoTwoViewController.xib */; };
+		042E2AD01E718A2C00742194 /* demoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2ACE1E718A2C00742194 /* demoThreeViewController.m */; };
+		042E2AD11E718A2C00742194 /* demoThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042E2ACF1E718A2C00742194 /* demoThreeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		042E2AAD1E7188E900742194 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042E2AB11E7188E900742194 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		042E2AB31E7188E900742194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E2AC01E71899F00742194 /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		042E2AC11E71899F00742194 /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		042E2AC31E7189CE00742194 /* DemoOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOneController.h; sourceTree = "<group>"; };
+		042E2AC41E7189CE00742194 /* DemoOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOneController.m; sourceTree = "<group>"; };
+		042E2AC51E7189CE00742194 /* DemoOneController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoOneController.xib; sourceTree = "<group>"; };
+		042E2AC81E718A0800742194 /* demoTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoTwoViewController.h; sourceTree = "<group>"; };
+		042E2AC91E718A0800742194 /* demoTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoTwoViewController.m; sourceTree = "<group>"; };
+		042E2ACA1E718A0800742194 /* demoTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demoTwoViewController.xib; sourceTree = "<group>"; };
+		042E2ACD1E718A2C00742194 /* demoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoThreeViewController.h; sourceTree = "<group>"; };
+		042E2ACE1E718A2C00742194 /* demoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoThreeViewController.m; sourceTree = "<group>"; };
+		042E2ACF1E718A2C00742194 /* demoThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demoThreeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,20 @@
 		042E2A8B1E7188E800742194 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				042E2ABF1E71899F00742194 /* PageMenu */,
 				042E2A8F1E7188E800742194 /* AppDelegate.h */,
 				042E2A901E7188E800742194 /* AppDelegate.m */,
 				042E2A921E7188E800742194 /* ViewController.h */,
 				042E2A931E7188E800742194 /* ViewController.m */,
+				042E2AC31E7189CE00742194 /* DemoOneController.h */,
+				042E2AC41E7189CE00742194 /* DemoOneController.m */,
+				042E2AC51E7189CE00742194 /* DemoOneController.xib */,
+				042E2AC81E718A0800742194 /* demoTwoViewController.h */,
+				042E2AC91E718A0800742194 /* demoTwoViewController.m */,
+				042E2ACA1E718A0800742194 /* demoTwoViewController.xib */,
+				042E2ACD1E718A2C00742194 /* demoThreeViewController.h */,
+				042E2ACE1E718A2C00742194 /* demoThreeViewController.m */,
+				042E2ACF1E718A2C00742194 /* demoThreeViewController.xib */,
 				042E2A951E7188E800742194 /* Main.storyboard */,
 				042E2A981E7188E800742194 /* Assets.xcassets */,
 				042E2A9A1E7188E800742194 /* LaunchScreen.storyboard */,
@@ -138,6 +166,15 @@
 				042E2AB31E7188E900742194 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		042E2ABF1E71899F00742194 /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				042E2AC01E71899F00742194 /* CAPSPageMenu.h */,
+				042E2AC11E71899F00742194 /* CAPSPageMenu.m */,
+			);
+			path = PageMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				042E2A9C1E7188E800742194 /* LaunchScreen.storyboard in Resources */,
+				042E2AC71E7189CE00742194 /* DemoOneController.xib in Resources */,
+				042E2AD11E718A2C00742194 /* demoThreeViewController.xib in Resources */,
+				042E2ACC1E718A0800742194 /* demoTwoViewController.xib in Resources */,
 				042E2A991E7188E800742194 /* Assets.xcassets in Resources */,
 				042E2A971E7188E800742194 /* Main.storyboard in Resources */,
 			);
@@ -274,7 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				042E2A941E7188E800742194 /* ViewController.m in Sources */,
+				042E2AC61E7189CE00742194 /* DemoOneController.m in Sources */,
 				042E2A911E7188E800742194 /* AppDelegate.m in Sources */,
+				042E2AC21E71899F00742194 /* CAPSPageMenu.m in Sources */,
+				042E2ACB1E718A0800742194 /* demoTwoViewController.m in Sources */,
+				042E2AD01E718A2C00742194 /* demoThreeViewController.m in Sources */,
 				042E2A8E1E7188E800742194 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +549,7 @@
 				042E2AB81E7188E900742194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042E2AB91E7188E900742194 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +558,7 @@
 				042E2ABB1E7188E900742194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042E2ABC1E7188E900742194 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +567,7 @@
 				042E2ABE1E7188E900742194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
